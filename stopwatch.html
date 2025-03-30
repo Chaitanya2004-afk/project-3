@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch">
+            <span id="display">00:00:00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+            <button id="lap">Lap</button>
+        </div>
+        <div class="lap-times">
+            <h2>Lap Times</h2>
+            <ul id="lap-list"></ul>
+        </div>
+        <div class="accuracy">
+            <h2>Accuracy</h2>
+            <p id="accuracy-display">Click "Lap" to measure accuracy.</p>
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
